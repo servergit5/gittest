@@ -9,13 +9,13 @@ public class Ejemplo
 {
    public static void main(String args[] ){
 	Ejemplo e=new Ejemplo();
-	int num1=13;
-	int num2=24;	
+	int num1=50;
+	int num2=10;	
 	boolean aux1=e.esPrimo(num1);
 	boolean aux2=e.esPrimo(num2);
 	
-	System.out.println(num1+" es primo?: "+aux1);
-	System.out.println(num2+" es primo?: "+aux2);
+	System.out.println(num1+" es primo?dicen: "+aux1);
+	System.out.println(num2+" es primo?:por que diran "+aux2);
 	}
    public boolean esPrimo(int numero)
    {
